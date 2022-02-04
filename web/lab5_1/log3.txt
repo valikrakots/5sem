@@ -1,0 +1,6 @@
+нояб. 29, 2021 4:23:31 PM Model.Server main
+INFO: Server working
+нояб. 29, 2021 4:23:51 PM Model.Server main
+INFO: New client connected
+нояб. 29, 2021 4:24:02 PM Model.Server main
+INFO: New client connected

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="factory" layoutX="337.0" layoutY="345.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Find by factory" />
+        <Button fx:id="sort" layoutX="479.0" layoutY="345.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Sort by category" />
+        <Pane fx:id="paneresult" layoutX="30.0" layoutY="274.0" prefHeight="111.0" prefWidth="257.0" style="-fx-background-color: grey;" visible="false">
+            <children>
+                <TextArea fx:id="res" layoutX="29.0" layoutY="13.0" prefHeight="84.0" prefWidth="200.0" />
+            </children></Pane>
+        <Pane fx:id="panefactory" layoutX="30.0" layoutY="75.0" prefHeight="163.0" prefWidth="250.0" style="-fx-background-color: grey;" visible="false">
+            <children>
+                <Button fx:id="ok" layoutX="195.0" layoutY="100.0" mnemonicParsing="false" style="-fx-background-color: white;" text="OK" />
+                <TextField fx:id="text" layoutX="14.0" layoutY="33.0" promptText="factory">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </TextField>
+            </children>
+        </Pane>
+        <Pane fx:id="panecategory" layoutX="300.0" layoutY="75.0" prefHeight="163.0" prefWidth="250.0" style="-fx-background-color: grey;" visible="false">
+            <children>
+                <Button fx:id="ok1" layoutX="195.0" layoutY="100.0" mnemonicParsing="false" style="-fx-background-color: white;" text="OK" />
+                <TextField fx:id="text1" layoutX="14.0" layoutY="33.0" promptText="category">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </TextField>
+            </children>
+        </Pane>
+    </children>
+</Pane>

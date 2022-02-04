@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tovars><Lastic><name>mapped</name><factory>Factory 1</factory><price>12.0</price><material>silicon</material></Lastic><Pen><name>pen1</name><factory>Factory 2</factory><price>14.0</price><color>green</color></Pen><Pencil><name>pencil1</name><factory>Factory3</factory><price>19.0</price><width>12</width></Pencil></tovars>

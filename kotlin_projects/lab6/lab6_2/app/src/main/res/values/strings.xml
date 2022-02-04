@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab6_2</string>
+    <string name="button1">1 angles</string>
+    <string name="button2">2 angles</string>
+    <string name="button3">equal</string>
+    <string name="button4">Go</string>
+    <string name="button5">Retry</string>
+    <string name="text1">a:</string>
+    <string name="text2">b:</string>
+    <string name="text3">angle1:</string>
+    <string name="text4">angle2:</string>
+</resources>

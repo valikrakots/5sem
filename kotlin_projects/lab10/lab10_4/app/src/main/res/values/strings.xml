@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Task_4</string>
+    <string name="minsk_name">Minsk</string>
+    <string name="vitebsk_name">Vitebsk</string>
+    <string name="get_minsk_info">Minsk Info</string>
+    <string name="get_vitebsk_info">Vitebsk Info</string>
+    <string name="Info">Press the button...</string>
+    <string name="enter_city">Write town here</string>
+    <string name="get_info_button">Get Info</string>
+
+</resources>

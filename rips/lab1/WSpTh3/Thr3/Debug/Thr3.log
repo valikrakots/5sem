@@ -1,0 +1,11 @@
+﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  Thr3.cpp
+C:\Users\valll\Documents\programming\5 сем\rips\lab1\WSpTh3\Thr3\Thr3.cpp(439,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\valll\Documents\programming\5 сем\rips\lab1\WSpTh3\Thr3\Thr3.cpp(475,8): warning C4101: dwRetCode: неиспользованная локальная переменная
+C:\Users\valll\Documents\programming\5 сем\rips\lab1\WSpTh3\Thr3\Thr3.cpp(517,8): warning C4101: dwRetCode: неиспользованная локальная переменная
+C:\Users\valll\Documents\programming\5 сем\rips\lab1\WSpTh3\Thr3\Thr3.cpp(583,19): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\valll\Documents\programming\5 сем\rips\lab1\WSpTh3\Thr3\Thr3.cpp(583,10): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\valll\Documents\programming\5 сем\rips\lab1\WSpTh3\Thr3\Thr3.cpp(562,8): warning C4101: dwRetCode: неиспользованная локальная переменная
+C:\Users\valll\Documents\programming\5 сем\rips\lab1\WSpTh3\Thr3\Thr3.cpp(640,8): warning C4101: dwRetCode: неиспользованная локальная переменная
+C:\Users\valll\Documents\programming\5 сем\rips\lab1\WSpTh3\Thr3\Thr3.cpp(678,8): warning C4101: dwRetCode: неиспользованная локальная переменная
+  Thr3.vcxproj -> C:\Users\valll\Documents\programming\5 сем\rips\lab1\WSpTh3\Thr3\Debug\Thr3.exe

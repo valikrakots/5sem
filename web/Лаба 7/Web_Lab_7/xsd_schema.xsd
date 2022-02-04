@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="factory" type="xs:string"/>
+    <xs:element name="price" type="xs:float"/>
+    <xs:element name="material" type="xs:string"/>
+    <xs:element name="color" type="xs:string"/>
+    <xs:element name="width" type="xs:byte"/>
+    <xs:element name="Lastic">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="factory"/>
+                <xs:element ref="price"/>
+                <xs:element ref="material"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Pen">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="factory"/>
+                <xs:element ref="price"/>
+                <xs:element ref="color"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Pencil">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="factory"/>
+                <xs:element ref="price"/>
+                <xs:element ref="width"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tovars">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Lastic"/>
+                <xs:element ref="Pen"/>
+                <xs:element ref="Pencil"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

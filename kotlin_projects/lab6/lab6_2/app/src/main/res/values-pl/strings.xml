@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lab6_2</string>
+    <string name="button1">1 zastrzyk</string>
+    <string name="button2">2 zastrzyk</string>
+    <string name="button3">równy</string>
+    <string name="button4">Iść</string>
+    <string name="button5">Zanowo</string>
+    <string name="text1">a:</string>
+    <string name="text2">b:</string>
+    <string name="text3">zastrzyk 1:</string>
+    <string name="text4">zastrzyk 2:</string>
+</resources>

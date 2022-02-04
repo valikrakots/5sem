@@ -1,0 +1,87 @@
+2021-12-20 16:42:40 INFO  ServerHandler:55 - Server created
+2021-12-20 16:42:47 INFO  ServerHandler:26 -  Server handler added for new client.
+2021-12-20 16:42:47 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:42:49 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:42:51 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:42:53 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:42:55 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:42:57 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:42:59 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:01 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:03 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:05 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:06 INFO  ServerHandler:26 -  Server handler added for new client.
+2021-12-20 16:43:06 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:07 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:09 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:11 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:11 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:13 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:15 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:16 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:17 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:19 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:21 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:21 INFO  ServerHandler:42 -  Message posted.
+2021-12-20 16:43:23 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:00 INFO  ServerHandler:55 - Server created
+2021-12-22 13:23:08 INFO  ServerHandler:26 -  Server handler added for new client.
+2021-12-22 13:23:08 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:11 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:14 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:17 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:20 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:20 INFO  ServerHandler:26 -  Server handler added for new client.
+2021-12-22 13:23:20 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:22 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:23 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:24 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:26 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:26 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:28 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:29 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:30 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:32 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:32 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:34 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:35 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:36 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:38 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:38 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:40 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:41 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:42 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:44 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:44 INFO  ServerHandler:42 -  Message posted.
+2021-12-22 13:23:46 WARN  DefaultChannelPipeline:1152 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-12-22 13:23:46 WARN  DefaultChannelPipeline:1152 - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)

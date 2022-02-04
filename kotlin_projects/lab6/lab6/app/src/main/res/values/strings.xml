@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lab6</string>
+    <string name="text1"> Введите число </string>
+    <string name="button1"> Go </string>
+</resources>

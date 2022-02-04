@@ -1,0 +1,50 @@
+2021-12-20 16:38:03 INFO  Runner:36 - Start work
+2021-12-20 16:38:03 INFO  Runner:40 - Create Catalog
+2021-12-20 16:38:04 INFO  Runner:88 - 
+-----------List of tovars: ---------
+2021-12-20 16:38:04 INFO  Runner:91 - 
+Lastic mapped made by: Factory 1 price: 12.0
+2021-12-20 16:38:04 INFO  Runner:91 - 
+Pen pen1 made by: Factory 2 price: 14.0
+2021-12-20 16:38:04 INFO  Runner:91 - 
+Pencil pencil1 made by: Factory3 price: 19.0
+2021-12-20 16:38:04 INFO  Runner:48 - Files written with DOM
+2021-12-20 16:38:04 INFO  Controller:74 - Validation succeed
+2021-12-20 16:38:04 INFO  Runner:57 - Valid xml
+2021-12-20 16:38:04 INFO  Runner:69 - Try to parse xml
+2021-12-20 16:38:04 INFO  Parser:48 - Starting DOM parsing
+2021-12-20 16:38:04 INFO  Parser:118 - Finish DOM parsing
+2021-12-20 16:38:04 INFO  Runner:76 - Add parsed tovars to catalog
+2021-12-20 16:38:04 INFO  Runner:88 - 
+-----------List of parsed: ---------
+2021-12-20 16:38:04 INFO  Runner:91 - 
+Lastic mapped made by: Factory 1 price: 12.0
+2021-12-20 16:38:04 INFO  Runner:91 - 
+Pen pen1 made by: Factory 2 price: 14.0
+2021-12-20 16:38:04 INFO  Runner:91 - 
+Pencil pencil1 made by: Factory3 price: 19.0
+2021-12-22 13:27:15 INFO  Runner:36 - Start work
+2021-12-22 13:27:15 INFO  Runner:40 - Create Catalog
+2021-12-22 13:27:16 INFO  Runner:88 - 
+-----------List of tovars: ---------
+2021-12-22 13:27:16 INFO  Runner:91 - 
+Lastic mapped made by: Factory 1 price: 12.0
+2021-12-22 13:27:16 INFO  Runner:91 - 
+Pen pen1 made by: Factory 2 price: 14.0
+2021-12-22 13:27:16 INFO  Runner:91 - 
+Pencil pencil1 made by: Factory3 price: 19.0
+2021-12-22 13:27:16 INFO  Runner:48 - Files written with DOM
+2021-12-22 13:27:16 INFO  Controller:74 - Validation succeed
+2021-12-22 13:27:16 INFO  Runner:57 - Valid xml
+2021-12-22 13:27:16 INFO  Runner:69 - Try to parse xml
+2021-12-22 13:27:16 INFO  Parser:48 - Starting DOM parsing
+2021-12-22 13:27:16 INFO  Parser:118 - Finish DOM parsing
+2021-12-22 13:27:16 INFO  Runner:76 - Add parsed tovars to catalog
+2021-12-22 13:27:16 INFO  Runner:88 - 
+-----------List of parsed: ---------
+2021-12-22 13:27:16 INFO  Runner:91 - 
+Lastic mapped made by: Factory 1 price: 12.0
+2021-12-22 13:27:16 INFO  Runner:91 - 
+Pen pen1 made by: Factory 2 price: 14.0
+2021-12-22 13:27:16 INFO  Runner:91 - 
+Pencil pencil1 made by: Factory3 price: 19.0

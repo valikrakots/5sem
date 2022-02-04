@@ -1,0 +1,10 @@
+окт. 25, 2021 5:14:53 PM View.Main main
+INFO: Locale is set
+окт. 25, 2021 5:14:53 PM View.Main main
+INFO: File read
+окт. 25, 2021 5:14:53 PM View.Main main
+INFO: Text and sentences are parsed
+окт. 25, 2021 5:14:53 PM View.Main main
+INFO: Main tasks are done
+окт. 25, 2021 5:14:53 PM View.Main main
+INFO: Additional tasks are done
